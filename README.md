@@ -1,7 +1,7 @@
 # Grid-Escape
 Solution for Grid Escape problem given at Code Jam I/O for Women 2019.
 
-# Problem
+## Problem
 (description copied from the problem decription provided during Code Jam)
 You are designing a new "escape" adventure that uses a rectangular grid of rooms (unit cells) with R rows and C columns. Each room has four doors oriented in the four orthogonal directions of the grid: north, south, east, and west. The doors on the border of the grid lead outside, and all of the other doors lead to other rooms.
 
@@ -11,15 +11,15 @@ Each player moves independently of all other players. Players can only go throug
 
 You want to choose which door in each room can be opened, such that exactly K of the players will be able to escape. Can you find a way to do this, or determine that it is IMPOSSIBLE?
 
-# Input
+## Input
 The first line of the input gives the number of test cases, T. T test cases follow. Each consists of one line containing three integers R, C, and K, as described above.
 
-# Output
+## Output
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is IMPOSSIBLE if there is no solution, or POSSIBLE if there is. If there is a solution, output R more lines of C characters each, representing the grid of rooms. The j-th character on the i-th of these lines represents the room in the i-th row and j-th column of the grid; each character must be either uppercase N, S, E, or W, according to whether the door that opens from that room is the one that leads north, south, east, or west.
 
 If multiple answers are possible, you may output any one of them.
 
-# Limits
+## Limits
 1 ≤ T ≤ 100.
 Time limit: 20 seconds per test set. (10 seconds per test run.)
 Memory limit: 1GB.
@@ -27,7 +27,8 @@ Memory limit: 1GB.
 1 ≤ C.
 0 ≤ K ≤ R × C.
 
-# Compiling & Running
+## Compiling & Running
 run:
 `javac Solution.java`
+followed by:
 `java Solution`
